@@ -13,23 +13,31 @@ body {
 }
 nav {
   background-color: white;
-  height: 3rem;
+  height: 4rem;
+  font-weight: 700;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-weight: 700;
 }
-
-nav ul a {
-  text-decoration: none;
-  margin: 0 3rem;
+.information ul {
+  list-style-type: none;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
   font-size: 1.5rem;
   color: black;
 }
-nav ul {
+a {
+  margin: auto 2rem;
+  text-decoration: none;
+  color: black;
+}
+nav ul li {
   transition: 100ms linear;
 }
-nav ul:hover {
+nav ul li:hover {
   transform: scale(1.1);
 }
 
